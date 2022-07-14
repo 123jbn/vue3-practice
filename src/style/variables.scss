@@ -1,0 +1,7 @@
+$menuText:#f4f4f4;
+$menuactiveText:#fff;
+// Js与scss共享变量，在scss中通过:export导出，在js中可以通过EMS进行导入。
+:export{
+  menuText:$menuText;
+  menuactiveText:$menuactiveText
+}

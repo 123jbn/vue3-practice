@@ -1,2 +1,7 @@
 // 公共样式变量
 // bem规范
+@mixin clearfix {
+  &::after{
+    
+  }
+}
